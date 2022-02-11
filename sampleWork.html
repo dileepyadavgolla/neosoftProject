@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta name="author" content="Dileep">
+        <meta name="Description" content="demo trail">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <meta charset="UTF-8">
+        <link href="/home/neosoft/Desktop/Project/cssStyles/cssStyling.css" rel="stylesheet">
+       
+        <style>
+           #hatMan{
+               height: 300px;
+               margin-bottom: 40px;
+               margin-right: 50px;
+               width: 300px;
+           }
+           body{
+               margin: 0;
+           }
+           .gameBG{
+            background-image: linear-gradient(to right, lightblue, darkblue)
+           }
+           #div3{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-left: 40px;
+           }
+           #result{
+               color: tomato;
+               font-size: 20px;
+               border-radius: 100%;
+               padding: 30px;
+           }
+           #scoreCard{
+               display:flex;
+               flex-direction: column;
+               background-color: transparent;
+               align-items: center;
+               justify-content: center;
+           }
+        </style>
+      </head>
+<body>
+    <div class="gameBG">
+        <nav>
+            <a href="homePage..html"><span>D</span></h1></a>
+            <div>
+            <a href="#">Home</a>
+            <a href="About.html">About Me</a>
+        
+            <a href="Documents.html">Documents</a>
+    
+              <a href="/home/neosoft/Desktop/Project/sampleWork.html">My Works</a>
+            
+            <a href="index.html">Logout</a>
+          </div>
+          </nav>
+       
+          <div>
+              <h1 style="text-align: center; color: white;">Guessing A number Game</h1>
+              <p style="text-align: center; color:white">Guess the one digit number of range 1to 5 in the hat</p>
+              <div id="div3">
+               
+              <img src="/home/neosoft/Desktop/Project/istockphoto-487826935-1024x1024.jpg" id="hatMan"/>
+              <div>
+                <div id="scoreCard">
+                    <span id="summary" style="color: red; font-size: 20px;"></span>
+                  <span id="result" style="color: red; font-size: 20px;"></span> <br>
+              </div>
+                  <input type="text" style="margin-bottom: 20px;" id="guessNum"/>
+              <div style="margin-left: 10px;"> 
+                 
+                <button id="btnGuess">Submit</button>
+                <a href="/home/neosoft/Desktop/Project/sampleWork.html"><button>Restart</button></a>
+            </div>
+              </div>
+             
+            </div>
+          </div>
+
+
+          <footer id="footer">
+            <div id="foot1">
+              <span style="color:red;font-size: 20px;">Connect</span>
+            
+              <img src="/home/neosoft/Desktop/Project/facebook.png" class="icon">
+              <img src="/home/neosoft/Desktop/Project/insta.jpeg" class="icon">
+              <img src="/home/neosoft/Desktop/Project/linkedin.png" class="icon">
+              <img src="/home/neosoft/Desktop/Project/twitter.jpeg" class="icon">
+            </div>
+            
+              <span style="color:red; font-size: 20px;">&copy; All rights Reserved</span>
+            
+      </footer>
+
+    </div>
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+       
+   </script>
+<!-- 
+   <script src="/home/neosoft/Desktop/jQuery/library/jquery-3.6.0.js"></script> -->
+   <script src="myScripts/sampleWork.js"></script>
+   
+</body>
+</html>
