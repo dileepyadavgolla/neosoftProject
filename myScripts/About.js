@@ -4,7 +4,7 @@ let iT2Node
 let iT3Node
 let iT4Node
 
-let array1=["/home/neosoft/Desktop/Project/facebook.png","/home/neosoft/Desktop/Project/linkedin.png","/home/neosoft/Desktop/Project/insta.jpeg"
+let array1=["facebook.png","linkedin.png","insta.jpeg"
 ,"/home/neosoft/Desktop/Project/twitter.jpeg"
 ]
 iT1Node=$("#iT1")
@@ -27,7 +27,7 @@ $(()=>{
 let skillsNode=$("skillsDiv")
 let ImgEle=$("#skillImg")
 
-let imgArray=["/home/neosoft/Desktop/Project/CSS.png","/home/neosoft/Desktop/Project/Jquery.png","/home/neosoft/Desktop/Project/jsLogo.png"]
+let imgArray=["CSS.png","Jquery.png","jsLogo.png"]
 
              
            var i = 0;
