@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta name="author" content="Dileep">
+        <meta name="Description" content="demo trail">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <meta charset="UTF-8">
+        <style>
+           section{
+               background-color:#a8d5e5;
+               height: 100%;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           span{
+               color: red;
+           }
+           
+           body{
+               margin: 0px;
+           }
+
+           h1{
+               font-size: 35px;
+               color: orange;
+           }
+           label{
+               color: white;
+               font-size: 22px;
+           }
+           button{
+               margin-left: 40px;
+               width: 100px;
+               background-color: orange;
+               border: 2px solid black;
+
+           }
+           button:hover{
+               background-color: white;
+               border: 2px solid orange;
+           }
+           .inputL{
+               width: 200px;
+           }
+           form{
+               background-color: #439fa3;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+             
+               width:300px;
+               height: 300px;
+           }
+           #labelL{
+               font-size: 10px;
+           }
+        </style>
+      </head>
+<body>
+
+      <section >
+          <div id="div1">
+          <h1>Login to My Portfolio</h1>
+          <form id="lForm"  action="/home/neosoft/Desktop/Project/homePage..html" onsubmit="return validateLForm()">
+            <table>
+
+                <tr>
+                    <td><label for="userName">Enter UserName</label></td>
+                    
+                    
+                </tr>
+                <tr><td><input type="text" class="inputL" id="userName" /></td></tr>
+                
+                <tr>
+                    
+                    <td><span id="span1"></span></td>
+                    
+                </tr>
+                <br> <br>
+                <tr> 
+                    <td><label for="pswd">Enter Password</label></td>
+                    
+                    </tr>
+                    <tr>
+                        <td><input  class="inputL" type="password" id="pswd" /></td>
+                    </tr>
+                
+                    
+                <tr>
+                    <td><span id="span2"></span></td></tr>
+                </tr>
+                <tr>
+                    <td>
+                    <input type="checkbox" id="checkL1" /><label for="checkL" >Show password</label>
+                </td>
+            </tr>
+                
+                            
+                   <td><button  id="button1" type="submit">Login</button></td>
+                 </tr>
+                
+            </table>
+    
+              
+              
+              
+          </form>
+        </div>
+        
+      </section>
+
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+   <script src="/home/neosoft/Desktop/jQuery/library/jquery-3.6.0.js"></script>
+   <script src="/home/neosoft/Desktop/Project/myScripts/login.js"></script>
+   </body>
+</html>
