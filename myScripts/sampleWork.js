@@ -18,7 +18,7 @@ btnGuessNode.onclick=function(){
         summaryNode.textContent="Game Completed"
         resultNode.textContent="your score is "+count
         guessNode.value=""
-        num=Math.floor(Math.random()*11);
+        num=Math.floor(Math.random()*6);
 
     }
 }
